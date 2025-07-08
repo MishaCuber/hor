@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Polifonica - Свяжитесь с нами">
+    <title>Polifonica - Контакты</title>
+    
+    <!-- Preload fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <a href="/">Polifonica</a>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Главная</a>
+                <a href="about.html">О нас</a>
+                <a href="concerts.html">Концерты</a>
+                <a href="music.html">Репертуар</a>
+                <a href="gallery.html">Галерея</a>
+                <a href="contact.html">Контакты</a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Меню">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Page Hero Section -->
+    <section class="page-hero">
+        <div class="page-hero-overlay"></div>
+        <div class="page-hero-content">
+            <h1 class="page-title">Свяжитесь с нами</h1>
+            <p class="page-subtitle">Мы всегда рады вашим вопросам и предложениям</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2 class="section-title">Свяжитесь с нами</h2>
+                    <p>Возможно, вы заинтересованы в покупке одной (или всех) наших альбомов? Заполните форму на этой странице, и мы свяжемся с вами в ближайшее время, чтобы договориться об оплате и доставке. Если вы предпочитаете поговорить с кем-то напрямую, вы всегда можете отправить нам сообщение.</p>
+                    
+                    <h3>Контактная информация</h3>
+                    <p>Peter Martin Jacob<br>Hafenstraße 8688159 Mannheim<br>Tel: +49 (621) 96259898<br>Mobil: +49 (177) 0563624<br><a href="mailto:herrjacob@magenta-artists.de">herrjacob@magenta-artists.de</a><br><a href="https://magenta-artists.de">magenta-artists.de</a></p>
+                </div>
+                <form class="contact-form" action="https://formspree.io/f/YOUR_FORMSPREE_FORM_ID" method="POST">
+                    <div class="form-group">
+                        <label for="name">Имя</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Телефон</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Сообщение</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <input type="hidden" name="_subject" value="Сообщение с сайта Polifonica!">
+                    <input type="hidden" name="_replyto">
+                    <button type="submit" class="btn-primary">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="/">Polifonica</a>
+                </div>
+                <div class="footer-links">
+                    <a href="about.html">О нас</a>
+                    <a href="concerts.html">Концерты</a>
+                    <a href="music.html">Репертуар</a>
+                    <a href="gallery.html">Галерея</a>
+                    <a href="contact.html">Контакты</a>
+                </div>
+                <div class="social-links">
+                    <!-- Social media links will be added here -->
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Polifonica. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html> 
